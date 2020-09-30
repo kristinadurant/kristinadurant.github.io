@@ -5,10 +5,19 @@ h1 {
 h1 em {
   color: rgb(122, 211, 122);
 }
-
-div.my-recipe {
+.overflow {
   overflow: hidden;
-  background-color: rgb(157, 212, 157);
+}
+
+/* styling my recipe section */
+div.my-recipe {
+  background-color: rgb(168 218 168 / 32%);
+  width: 90%;
+  margin: auto;
+}
+div.my-recipe h2 {
+  text-align: center;
+  color: green;
 }
 div.half-width {
   float: left;
