@@ -10,12 +10,12 @@ h1 em {
 }
 
 /* styling my recipe section */
-div.my-recipe {
+section.my-recipe {
   background-color: rgb(168 218 168 / 32%);
   width: 90%;
   margin: auto;
 }
-div.my-recipe h2 {
+section.my-recipe h2 {
   text-align: center;
   color: green;
 }
