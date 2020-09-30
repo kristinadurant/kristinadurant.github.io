@@ -5,3 +5,12 @@ h1 {
 h1 em {
   color: rgb(122, 211, 122);
 }
+
+div.my-recipe {
+  overflow: hidden;
+  background-color: rgb(157, 212, 157);
+}
+div.half-width {
+  float: left;
+  width: 50%;
+}
