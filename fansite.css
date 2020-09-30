@@ -1,4 +1,7 @@
-#welcome {
-  font-size: 48px;
-  color: rgb(148, 100, 202);
+h1 {
+  color: rgb(20, 75, 52);
+}
+
+h1 em {
+  color: rgb(122, 211, 122);
 }
