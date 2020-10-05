@@ -1,5 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  height: 100vh;
+  background: pink url("./images/katarina-sikuljak-BeEnOzyIBsU-unsplash.jpeg")
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 h1 {
-  color: rgb(20, 75, 52);
 }
 
 h1 em {
@@ -8,20 +22,81 @@ h1 em {
 .overflow {
   overflow: hidden;
 }
+/* styling intro section */
+section#intro {
+  height: 50vh;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10%;
+}
+section#intro h2 {
+  font-size: 5rem;
+}
+section#intro p {
+  font-size: 2rem;
+  width: 80%;
+  text-align: center;
+}
 
+section#intro + a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+}
+section#intro + a i {
+  font-size: 10rem;
+  position: relative;
+}
+section#intro + a i span {
+  font-size: 1rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+}
 /* styling my recipe section */
-section.my-recipe {
-  background-color: rgb(168 218 168 / 32%);
-  width: 90%;
+section#my-recipes {
+  padding-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 950px;
   margin: auto;
+  flex-direction: column;
 }
-section.my-recipe h2 {
-  color: green;
+section#my-recipes .recipe {
+  width: 70%;
+  margin: 0 auto 100px;
+  border: 2px solid #000;
+  background-color: #fff;
+  padding: 5%;
 }
-div.half-width {
-  float: left;
-  width: 50%;
+section#my-recipes .recipe .recipe-image div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
-div.half-width img {
-  max-width: 90%;
+section#my-recipes .recipe-text h2 {
+  margin: 1rem 0;
+}
+section#my-recipes .recipe-text > :nth-child(n) {
+  margin-bottom: 1rem;
+}
+footer {
+  padding: 2%;
+  background-color: #111;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
 }
